@@ -4,6 +4,8 @@ var imgLocal = document.querySelector('.photos')
 var img = document.createElement('img')
 var p = document.createElement('p')
 p.setAttribute('class','texto')
+var title = document.querySelector('.test-text')
+
 
 function clicar () {
     
@@ -18,12 +20,13 @@ function clicar () {
         img.setAttribute('src', ``)
         imgLocal.appendChild(p)
         var text = document.querySelector('.texto')
-        text.innerHTML = `isso é um teste`
+        text.innerHTML = `escrever aqui algo fofo para fechar`
     }
    //alert(n)
 
 }
- btn.onclick = clicar
+ 
+btn.onclick = clicar
 
 
 

@@ -3,6 +3,11 @@ body{
     color: #fdf0d5;
 }
 
+h1{
+    font-size: 25px;
+    text-align: center;
+}
+
 .master{
     margin: 0px auto;
     height: 500px;
