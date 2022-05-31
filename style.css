@@ -1,35 +1,15 @@
 .heart{
-    margin: 0px auto;
-    background: red;
-    height: 300px;
-    width: 300px;
-    
+    width: 533px;
+    background-color: aqua;
     position: relative;
-    top: 200px;
-    box-shadow: 0 0 2em gray;
-    animation: pulse 1s ease infinite;
+    height: 468px;
+    margin: 30px auto;
 }
 
-.heart:before, .heart:after{
-    content: "";
-    background: red;
-    border-radius: 50%;
-    height: 300px;
-    position: absolute;
-    width: 300px;
+.heart-svg{
+    margin: 0 auto;
+    text-shadow: 10em;
+    fill: red;
+    
 }
-
-.heart:before{
-    top: -150px;
-}
-
-.heart:after{
-    left: 150px;
-}
-
-@keyframes pulse {
-    0% { transform: scale(1) rotate(-45deg); }
-    50% { transform: scale(1.02) rotate(-45deg); }
-    100% { transform: scale(1) rotate(-45deg); }
-  }
 
