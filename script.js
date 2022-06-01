@@ -1,12 +1,12 @@
 var n = 0
 var btn = document.querySelector('.btn')
+var heart = document.querySelector('.heart')
+var heartContent = document.querySelector('.test') 
 var imgLocal = document.querySelector('.photos')
 var img = document.createElement('img')
 var title = document.querySelector('.test-text')
 
-
 function clicar () {
-    
     if (n<9){
         imgLocal.innerHTML = ""
         n++
@@ -23,10 +23,12 @@ function clicar () {
         text.innerHTML = `escrever aqui algo fofo para fechar`
     }
    //alert(n)
-
 }
  
 btn.onclick = clicar
+heart.onclick = clicar
+heartContent.onclick = clicar
+
  
 
 
