@@ -1,5 +1,5 @@
 var n = 0
-var btn = document.querySelector('.btn')
+var btn = document.querySelector('.advice')
 var heart = document.querySelector('.heart')
 var heartContent = document.querySelector('.test') 
 var imgLocal = document.querySelector('.photos')
