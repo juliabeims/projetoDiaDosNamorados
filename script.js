@@ -2,8 +2,6 @@ var n = 0
 var btn = document.querySelector('.btn')
 var imgLocal = document.querySelector('.photos')
 var img = document.createElement('img')
-var p = document.createElement('p')
-p.setAttribute('class','texto')
 var title = document.querySelector('.test-text')
 
 
@@ -18,6 +16,8 @@ function clicar () {
     } else{
         n=0
         img.setAttribute('src', ``)
+        var p = document.createElement('p')
+        p.setAttribute('class','texto')
         imgLocal.appendChild(p)
         var text = document.querySelector('.texto')
         text.innerHTML = `escrever aqui algo fofo para fechar`
@@ -27,6 +27,6 @@ function clicar () {
 }
  
 btn.onclick = clicar
-
+ 
 
 
