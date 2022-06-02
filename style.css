@@ -86,3 +86,8 @@ img{
     right: 120px;
     border-radius: 5%;
 }
+
+.song{
+    position: relative;
+    left: 1000px;
+}
